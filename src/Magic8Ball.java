@@ -6,7 +6,8 @@ public class Magic8Ball {
 
         // declare
         Scanner person;
-        int value;
+        person = new Scanner(System.in);
+
         int testing;
         String question;
 
