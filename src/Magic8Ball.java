@@ -31,6 +31,33 @@ public class Magic8Ball {
             System.out.print("you  are ready");
 
         }
+        else if (50>= firstNumber && firstNumber>40) {
+            System.out.print("it is certain");
 
-       
+        }
+        else if (60>= firstNumber && firstNumber>50) {
+            System.out.print("most likely");
+
+        }
+        else if (70>= firstNumber && firstNumber>60) {
+            System.out.print("don't count on it");
+
+        }
+        else if (80>= firstNumber && firstNumber>70) {
+            System.out.print("my reply is no");
+
+        }
+        else if (90>= firstNumber && firstNumber>80) {
+            System.out.print("Outlook is not so good");
+
+        }
+        else if (100>= firstNumber && firstNumber>90) {
+            System.out.print("ask again later");
+
+        }
+    }
+}
+
+
+
     }
