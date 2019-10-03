@@ -52,12 +52,13 @@ public class Magic8Ball {
 
         }
         else if (100>= firstNumber && firstNumber>90) {
-            System.out.print("ask again later");
+            System.out.print("not now");
 
         }
+        else System.out.println("try again");
+
     }
 }
 
 
 
-    }
